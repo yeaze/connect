@@ -62,7 +62,7 @@ docker-ai:
 
 fmt:
 	@go list -f {{.Dir}} ./... | xargs -I{} gofmt -w -s {}
-	@go list -f {{.Dir}} ./... | xargs -I{} goimports -w -local github.com/redpanda-data/connect/v4 {}
+	@go list -f {{.Dir}} ./... | xargs -I{} goimports -w -local github.com/yeaze/connect/v4 {}
 	@go mod tidy
 
 lint:

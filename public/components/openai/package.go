@@ -10,5 +10,5 @@ package openai
 
 import (
 	// Bring in the internal plugin definitions.
-	_ "github.com/redpanda-data/connect/v4/internal/impl/openai"
+	_ "github.com/yeaze/connect/v4/internal/impl/openai"
 )

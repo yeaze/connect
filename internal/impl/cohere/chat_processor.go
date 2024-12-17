@@ -18,8 +18,8 @@ import (
 	cohere "github.com/cohere-ai/cohere-go/v2"
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/confluent/sr"
-	"github.com/redpanda-data/connect/v4/internal/license"
+	"github.com/yeaze/connect/v4/internal/impl/confluent/sr"
+	"github.com/yeaze/connect/v4/internal/license"
 )
 
 const (

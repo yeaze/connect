@@ -19,5 +19,5 @@ package free
 
 import (
 	// Import all public sub-categories.
-	_ "github.com/redpanda-data/connect/v4/public/components/community"
+	_ "github.com/yeaze/connect/v4/public/components/community"
 )

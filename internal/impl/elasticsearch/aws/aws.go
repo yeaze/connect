@@ -30,8 +30,8 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	baws "github.com/redpanda-data/connect/v4/internal/impl/aws"
-	"github.com/redpanda-data/connect/v4/internal/impl/elasticsearch"
+	baws "github.com/yeaze/connect/v4/internal/impl/aws"
+	"github.com/yeaze/connect/v4/internal/impl/elasticsearch"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"

@@ -30,7 +30,7 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"github.com/redpanda-data/benthos/v4/public/service/integration"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/kafka"
+	"github.com/yeaze/connect/v4/internal/impl/kafka"
 )
 
 // TestIntegrationSaramaCheckpointOneLockUp checks that setting `checkpoint_limit: 1` on the `kafka` input doesn't lead to lockups.

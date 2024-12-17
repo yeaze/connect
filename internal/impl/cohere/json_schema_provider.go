@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/confluent/sr"
+	"github.com/yeaze/connect/v4/internal/impl/confluent/sr"
 )
 
 type jsonSchema = map[string]any

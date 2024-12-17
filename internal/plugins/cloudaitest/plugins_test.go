@@ -11,14 +11,14 @@ package cloudaitest_test
 import (
 	"testing"
 
-	"github.com/redpanda-data/connect/v4/internal/plugins"
+	"github.com/yeaze/connect/v4/internal/plugins"
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
 	_ "embed"
 
-	_ "github.com/redpanda-data/connect/v4/public/components/cloud"
-	_ "github.com/redpanda-data/connect/v4/public/components/ollama"
+	_ "github.com/yeaze/connect/v4/public/components/cloud"
+	_ "github.com/yeaze/connect/v4/public/components/ollama"
 )
 
 func TestImportsMatch(t *testing.T) {

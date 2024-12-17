@@ -31,11 +31,11 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"github.com/redpanda-data/benthos/v4/public/service/integration"
 
-	isql "github.com/redpanda-data/connect/v4/internal/impl/sql"
+	isql "github.com/yeaze/connect/v4/internal/impl/sql"
 
 	_ "github.com/redpanda-data/benthos/v4/public/components/pure"
 
-	_ "github.com/redpanda-data/connect/v4/public/components/sql"
+	_ "github.com/yeaze/connect/v4/public/components/sql"
 )
 
 type testFn func(t *testing.T, driver, dsn, table string)

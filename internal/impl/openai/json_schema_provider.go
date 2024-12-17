@@ -18,7 +18,7 @@ import (
 	oai "github.com/sashabaranov/go-openai"
 	"github.com/sashabaranov/go-openai/jsonschema"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/confluent/sr"
+	"github.com/yeaze/connect/v4/internal/impl/confluent/sr"
 )
 
 type jsonSchemaProvider interface {

@@ -23,7 +23,7 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/confluent/sr"
+	"github.com/yeaze/connect/v4/internal/impl/confluent/sr"
 )
 
 func resolveJSONSchema(ctx context.Context, client *sr.Client, schema franz_sr.Schema) (*gojsonschema.Schema, error) {

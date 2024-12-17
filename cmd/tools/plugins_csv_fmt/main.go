@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/redpanda-data/connect/v4/internal/plugins"
+	"github.com/yeaze/connect/v4/internal/plugins"
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	_ "github.com/redpanda-data/connect/v4/public/components/all"
+	_ "github.com/yeaze/connect/v4/public/components/all"
 
 	_ "embed"
 )

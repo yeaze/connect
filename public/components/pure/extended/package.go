@@ -26,12 +26,12 @@ import (
 	// Import pure but larger packages.
 	_ "github.com/redpanda-data/benthos/v4/public/components/pure/extended"
 
-	_ "github.com/redpanda-data/connect/v4/internal/impl/awk"
-	_ "github.com/redpanda-data/connect/v4/internal/impl/html"
-	_ "github.com/redpanda-data/connect/v4/internal/impl/jsonpath"
-	_ "github.com/redpanda-data/connect/v4/internal/impl/lang"
-	_ "github.com/redpanda-data/connect/v4/internal/impl/msgpack"
-	_ "github.com/redpanda-data/connect/v4/internal/impl/parquet"
-	_ "github.com/redpanda-data/connect/v4/internal/impl/protobuf"
-	_ "github.com/redpanda-data/connect/v4/internal/impl/xml"
+	_ "github.com/yeaze/connect/v4/internal/impl/awk"
+	_ "github.com/yeaze/connect/v4/internal/impl/html"
+	_ "github.com/yeaze/connect/v4/internal/impl/jsonpath"
+	_ "github.com/yeaze/connect/v4/internal/impl/lang"
+	_ "github.com/yeaze/connect/v4/internal/impl/msgpack"
+	_ "github.com/yeaze/connect/v4/internal/impl/parquet"
+	_ "github.com/yeaze/connect/v4/internal/impl/protobuf"
+	_ "github.com/yeaze/connect/v4/internal/impl/xml"
 )

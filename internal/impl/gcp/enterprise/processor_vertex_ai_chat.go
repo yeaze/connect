@@ -20,7 +20,7 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"google.golang.org/api/option"
 
-	"github.com/redpanda-data/connect/v4/internal/license"
+	"github.com/yeaze/connect/v4/internal/license"
 )
 
 const (

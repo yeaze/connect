@@ -8,7 +8,7 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/timeplus/http"
+	"github.com/yeaze/connect/v4/internal/impl/timeplus/http"
 )
 
 var outputConfigSpec *service.ConfigSpec

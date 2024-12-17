@@ -18,10 +18,10 @@ import (
 	"github.com/rs/xid"
 	"github.com/urfave/cli/v2"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/kafka/enterprise"
-	"github.com/redpanda-data/connect/v4/internal/license"
-	"github.com/redpanda-data/connect/v4/internal/secrets"
-	"github.com/redpanda-data/connect/v4/internal/telemetry"
+	"github.com/yeaze/connect/v4/internal/impl/kafka/enterprise"
+	"github.com/yeaze/connect/v4/internal/license"
+	"github.com/yeaze/connect/v4/internal/secrets"
+	"github.com/yeaze/connect/v4/internal/telemetry"
 )
 
 const connectorListPath = "/etc/redpanda/connector_list.yaml"

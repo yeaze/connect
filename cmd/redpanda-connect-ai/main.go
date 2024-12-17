@@ -21,14 +21,14 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/redpanda-data/connect/v4/internal/cli"
-	"github.com/redpanda-data/connect/v4/internal/protohealth"
-	"github.com/redpanda-data/connect/v4/public/schema"
+	"github.com/yeaze/connect/v4/internal/cli"
+	"github.com/yeaze/connect/v4/internal/protohealth"
+	"github.com/yeaze/connect/v4/public/schema"
 
 	// Only import a subset of components for execution.
-	_ "github.com/redpanda-data/connect/v4/public/components/cloud"
+	_ "github.com/yeaze/connect/v4/public/components/cloud"
 	// Add in extra new AI plugins
-	_ "github.com/redpanda-data/connect/v4/public/components/ollama"
+	_ "github.com/yeaze/connect/v4/public/components/ollama"
 )
 
 var (

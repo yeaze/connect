@@ -23,7 +23,7 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"github.com/twmb/franz-go/pkg/kgo"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/kafka"
+	"github.com/yeaze/connect/v4/internal/impl/kafka"
 )
 
 // this function is, almost, an exact copy of the init() function in ../kafka/input_kafka_franz.go

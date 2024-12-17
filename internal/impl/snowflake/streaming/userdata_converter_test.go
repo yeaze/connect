@@ -19,7 +19,7 @@ import (
 	"github.com/parquet-go/parquet-go"
 	"github.com/stretchr/testify/require"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/snowflake/streaming/int128"
+	"github.com/yeaze/connect/v4/internal/impl/snowflake/streaming/int128"
 )
 
 type validateTestCase struct {

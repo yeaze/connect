@@ -13,7 +13,7 @@ package ollama
 import (
 	"os/exec"
 
-	"github.com/redpanda-data/connect/v4/internal/singleton"
+	"github.com/yeaze/connect/v4/internal/singleton"
 )
 
 var ollamaProcess *singleton.Singleton[*exec.Cmd]

@@ -24,7 +24,7 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/bloblang"
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/couchbase/client"
+	"github.com/yeaze/connect/v4/internal/impl/couchbase/client"
 )
 
 var (

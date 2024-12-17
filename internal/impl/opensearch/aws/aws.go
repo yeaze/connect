@@ -22,8 +22,8 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	baws "github.com/redpanda-data/connect/v4/internal/impl/aws"
-	"github.com/redpanda-data/connect/v4/internal/impl/opensearch"
+	baws "github.com/yeaze/connect/v4/internal/impl/aws"
+	"github.com/yeaze/connect/v4/internal/impl/opensearch"
 )
 
 func init() {

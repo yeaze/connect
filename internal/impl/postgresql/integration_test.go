@@ -4,7 +4,7 @@
 // License (the "License"); you may not use this file except in compliance with
 // the License. You may obtain a copy of the License at
 //
-// https://github.com/redpanda-data/connect/v4/blob/main/licenses/rcl.md
+// https://github.com/yeaze/connect/v4/blob/main/licenses/rcl.md
 
 package pgstream
 
@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/redpanda-data/connect/v4/internal/license"
+	"github.com/yeaze/connect/v4/internal/license"
 
 	"github.com/ory/dockertest/v3"
 	"github.com/ory/dockertest/v3/docker"

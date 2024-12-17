@@ -142,7 +142,7 @@ By default Redpanda Connect does not build with components that require linking 
 
 ```shell
 # With go
-go install -tags "x_benthos_extra" github.com/redpanda-data/connect/v4/cmd/redpanda-connect@latest
+go install -tags "x_benthos_extra" github.com/yeaze/connect/v4/cmd/redpanda-connect@latest
 
 # Using make
 make TAGS=x_benthos_extra

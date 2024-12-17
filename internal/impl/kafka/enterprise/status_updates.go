@@ -17,7 +17,7 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/redpanda-data/connect/v4/internal/protoconnect"
+	"github.com/yeaze/connect/v4/internal/protoconnect"
 )
 
 // TriggerEventConfigParsed dispatches a connectivity event that states the

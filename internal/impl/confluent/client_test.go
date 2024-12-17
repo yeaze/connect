@@ -27,7 +27,7 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/confluent/sr"
+	"github.com/yeaze/connect/v4/internal/impl/confluent/sr"
 )
 
 func TestSchemaRegistryClient_GetSchemaBySubjectAndVersion(t *testing.T) {

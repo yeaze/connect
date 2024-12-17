@@ -22,7 +22,7 @@ import (
 
 	"github.com/aws/aws-lambda-go/lambda"
 
-	"github.com/redpanda-data/connect/v4/internal/serverless"
+	"github.com/yeaze/connect/v4/internal/serverless"
 )
 
 var handler *serverless.Handler

@@ -19,12 +19,12 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/kafka"
+	"github.com/yeaze/connect/v4/internal/impl/kafka"
 
 	"github.com/twmb/franz-go/pkg/sasl"
 	kaws "github.com/twmb/franz-go/pkg/sasl/aws"
 
-	sess "github.com/redpanda-data/connect/v4/internal/impl/aws"
+	sess "github.com/yeaze/connect/v4/internal/impl/aws"
 )
 
 func init() {

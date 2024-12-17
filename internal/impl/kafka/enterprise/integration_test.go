@@ -35,9 +35,9 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"github.com/redpanda-data/benthos/v4/public/service/integration"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/kafka/enterprise"
-	"github.com/redpanda-data/connect/v4/internal/license"
-	"github.com/redpanda-data/connect/v4/internal/protoconnect"
+	"github.com/yeaze/connect/v4/internal/impl/kafka/enterprise"
+	"github.com/yeaze/connect/v4/internal/license"
+	"github.com/yeaze/connect/v4/internal/protoconnect"
 )
 
 func createKafkaTopic(ctx context.Context, address, id string, partitions int32) error {

@@ -18,7 +18,5 @@
 
 package sql
 
-import (
-	// Import sqlite specifically.
-	_ "modernc.org/sqlite"
-)
+// Import sqlite specifically.
+//_ "modernc.org/sqlite"

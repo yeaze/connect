@@ -2,7 +2,7 @@ module github.com/redpanda-data/connect/public/bundle/enterprise/v4
 
 go 1.23.4
 
-require github.com/redpanda-data/connect/v4 v4.44.0
+require github.com/yeaze/connect/v4 v4.44.0
 
 require (
 	cel.dev/expr v0.19.1 // indirect

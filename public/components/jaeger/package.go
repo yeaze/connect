@@ -16,5 +16,5 @@ package jaeger
 
 import (
 	// Bring in the internal plugin definitions.
-	_ "github.com/redpanda-data/connect/v4/internal/impl/jaeger"
+	_ "github.com/yeaze/connect/v4/internal/impl/jaeger"
 )

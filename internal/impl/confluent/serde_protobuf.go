@@ -30,7 +30,7 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/protobuf"
+	"github.com/yeaze/connect/v4/internal/impl/protobuf"
 )
 
 func (s *schemaRegistryDecoder) getProtobufDecoder(ctx context.Context, schema sr.Schema) (schemaDecoder, error) {

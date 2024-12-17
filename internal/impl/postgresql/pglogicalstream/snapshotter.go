@@ -4,7 +4,7 @@
 // License (the "License"); you may not use this file except in compliance with
 // the License. You may obtain a copy of the License at
 //
-// https://github.com/redpanda-data/connect/v4/blob/main/licenses/rcl.md
+// https://github.com/yeaze/connect/v4/blob/main/licenses/rcl.md
 
 package pglogicalstream
 
@@ -22,7 +22,7 @@ import (
 	_ "github.com/lib/pq"
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/postgresql/pglogicalstream/sanitize"
+	"github.com/yeaze/connect/v4/internal/impl/postgresql/pglogicalstream/sanitize"
 )
 
 // SnapshotCreationResponse is a structure that contains the name of the snapshot that was created

@@ -28,9 +28,9 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"github.com/redpanda-data/benthos/v4/public/service/integration"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/elasticsearch"
+	"github.com/yeaze/connect/v4/internal/impl/elasticsearch"
 
-	_ "github.com/redpanda-data/connect/v4/internal/impl/elasticsearch/aws"
+	_ "github.com/yeaze/connect/v4/internal/impl/elasticsearch/aws"
 )
 
 var elasticIndex = `{

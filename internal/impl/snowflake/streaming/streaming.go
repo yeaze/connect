@@ -30,8 +30,8 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/redpanda-data/connect/v4/internal/asyncroutine"
-	"github.com/redpanda-data/connect/v4/internal/typed"
+	"github.com/yeaze/connect/v4/internal/asyncroutine"
+	"github.com/yeaze/connect/v4/internal/typed"
 )
 
 const debug = false

@@ -16,7 +16,7 @@ import (
 	"github.com/ollama/ollama/api"
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/license"
+	"github.com/yeaze/connect/v4/internal/license"
 )
 
 const (

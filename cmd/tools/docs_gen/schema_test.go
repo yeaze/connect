@@ -21,9 +21,9 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/public/schema"
+	"github.com/yeaze/connect/v4/public/schema"
 
-	_ "github.com/redpanda-data/connect/v4/public/components/all"
+	_ "github.com/yeaze/connect/v4/public/components/all"
 )
 
 func TestComponentExamples(t *testing.T) {

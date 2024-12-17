@@ -10,5 +10,5 @@ package snowflake
 
 import (
 	// Bring in the internal plugin definitions.
-	_ "github.com/redpanda-data/connect/v4/internal/impl/snowflake"
+	_ "github.com/yeaze/connect/v4/internal/impl/snowflake"
 )

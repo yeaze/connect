@@ -4,7 +4,7 @@
 // License (the "License"); you may not use this file except in compliance with
 // the License. You may obtain a copy of the License at
 //
-// https://github.com/redpanda-data/connect/v4/blob/main/licenses/rcl.md
+// https://github.com/yeaze/connect/v4/blob/main/licenses/rcl.md
 
 package pglogicalstream
 
@@ -20,7 +20,7 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/asyncroutine"
+	"github.com/yeaze/connect/v4/internal/asyncroutine"
 )
 
 // Report is a structure that contains the current state of the Monitor

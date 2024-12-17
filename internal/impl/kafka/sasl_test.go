@@ -21,7 +21,7 @@ import (
 	"github.com/IBM/sarama"
 	"github.com/stretchr/testify/require"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/kafka"
+	"github.com/yeaze/connect/v4/internal/impl/kafka"
 
 	_ "github.com/redpanda-data/benthos/v4/public/components/pure"
 	"github.com/redpanda-data/benthos/v4/public/service"

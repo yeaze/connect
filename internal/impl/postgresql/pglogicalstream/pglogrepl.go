@@ -4,7 +4,7 @@
 // License (the "License"); you may not use this file except in compliance with
 // the License. You may obtain a copy of the License at
 //
-// https://github.com/redpanda-data/connect/v4/blob/main/licenses/rcl.md
+// https://github.com/yeaze/connect/v4/blob/main/licenses/rcl.md
 
 package pglogicalstream
 
@@ -31,7 +31,7 @@ import (
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgproto3"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/postgresql/pglogicalstream/sanitize"
+	"github.com/yeaze/connect/v4/internal/impl/postgresql/pglogicalstream/sanitize"
 )
 
 const (

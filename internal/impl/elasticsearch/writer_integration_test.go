@@ -31,7 +31,7 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"github.com/redpanda-data/benthos/v4/public/service/integration"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/elasticsearch"
+	"github.com/yeaze/connect/v4/internal/impl/elasticsearch"
 )
 
 func outputFromConf(t testing.TB, confStr string, args ...any) *elasticsearch.Output {

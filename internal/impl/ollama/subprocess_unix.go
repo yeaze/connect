@@ -30,7 +30,7 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/redpanda-data/connect/v4/internal/singleton"
+	"github.com/yeaze/connect/v4/internal/singleton"
 )
 
 // lookPath is very similar to exec.LookPath, except that it uses service.FS filesystem

@@ -30,9 +30,9 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/sql"
+	"github.com/yeaze/connect/v4/internal/impl/sql"
 
-	_ "github.com/redpanda-data/connect/v4/public/components/pure/extended"
+	_ "github.com/yeaze/connect/v4/public/components/pure/extended"
 )
 
 func msgEqualStr(t testing.TB, expected string, m *service.Message) {

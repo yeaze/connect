@@ -31,7 +31,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/postgresql/pglogicalstream/sanitize"
+	"github.com/yeaze/connect/v4/internal/impl/postgresql/pglogicalstream/sanitize"
 )
 
 func TestNewQuery(t *testing.T) {

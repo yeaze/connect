@@ -29,7 +29,7 @@ import (
 
 	_ "github.com/redpanda-data/benthos/v4/public/components/pure"
 
-	_ "github.com/redpanda-data/connect/v4/public/components/sql"
+	_ "github.com/yeaze/connect/v4/public/components/sql"
 )
 
 func TestConnSettingsInitStmt(t *testing.T) {

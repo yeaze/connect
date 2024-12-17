@@ -20,7 +20,7 @@ package sql
 
 import (
 	// Bring in the base plugin definitions.
-	_ "github.com/redpanda-data/connect/v4/public/components/sql/base"
+	_ "github.com/yeaze/connect/v4/public/components/sql/base"
 
 	// Import all (supported) sql drivers.
 	_ "github.com/ClickHouse/clickhouse-go/v2"

@@ -20,7 +20,7 @@ import (
 	"github.com/redpanda-data/benthos/v4/public/service"
 	"github.com/stretchr/testify/require"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/snowflake/streaming/int128"
+	"github.com/yeaze/connect/v4/internal/impl/snowflake/streaming/int128"
 )
 
 func msg(s string) *service.Message {

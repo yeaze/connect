@@ -22,7 +22,7 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service/integration"
 
-	_ "github.com/redpanda-data/connect/v4/public/components/pure"
+	_ "github.com/yeaze/connect/v4/public/components/pure"
 )
 
 func sqsIntegrationSuite(t *testing.T, lsPort string) {

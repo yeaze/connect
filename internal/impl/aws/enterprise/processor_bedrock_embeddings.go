@@ -19,9 +19,9 @@ import (
 
 	amzn "github.com/aws/aws-sdk-go-v2/aws"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/aws"
-	"github.com/redpanda-data/connect/v4/internal/impl/aws/config"
-	"github.com/redpanda-data/connect/v4/internal/license"
+	"github.com/yeaze/connect/v4/internal/impl/aws"
+	"github.com/yeaze/connect/v4/internal/impl/aws/config"
+	"github.com/yeaze/connect/v4/internal/license"
 )
 
 const (

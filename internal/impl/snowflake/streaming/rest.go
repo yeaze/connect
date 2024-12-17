@@ -31,9 +31,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/redpanda-data/benthos/v4/public/service"
 
-	"github.com/redpanda-data/connect/v4/internal/asyncroutine"
-	"github.com/redpanda-data/connect/v4/internal/impl/snowflake/streaming/int128"
-	"github.com/redpanda-data/connect/v4/internal/typed"
+	"github.com/yeaze/connect/v4/internal/asyncroutine"
+	"github.com/yeaze/connect/v4/internal/impl/snowflake/streaming/int128"
+	"github.com/yeaze/connect/v4/internal/typed"
 )
 
 const (

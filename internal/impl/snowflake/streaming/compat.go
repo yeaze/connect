@@ -24,7 +24,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/redpanda-data/connect/v4/internal/impl/snowflake/streaming/int128"
+	"github.com/yeaze/connect/v4/internal/impl/snowflake/streaming/int128"
 )
 
 var (
